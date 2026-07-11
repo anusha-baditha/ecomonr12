@@ -9,7 +9,7 @@ from cmail import send_mail
 from stoken import endata,dndata
 from mysql.connector import (connection)
 from werkzeug.utils import secure_filename
-mydb=connection.MySQLConnection(user='root',host='localhost',password='admin',database='ecomdb0nr12')
+mydb=connection.MySQLConnection(user='flaskuser',host='localhost',password='password',database='flaskdb')
 import re
 import os
 import uuid
